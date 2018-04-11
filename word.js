@@ -76,6 +76,6 @@ testWord.testLetter("n");
 testWord.testLetter("I");
 
 
-console.log(testWord.createString());
+// console.log(testWord.createString());
 
 module.exports = Word;
