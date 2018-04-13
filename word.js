@@ -45,20 +45,34 @@ Word.prototype.testLetter = function(charGuessed) {
         // console.log(this.letters[i].displayLetter());
 
     }
-
-    
-
-    // for(var i=0; i<this.letters.length; i++) {
-    //     if(this.showLetter = true) {
-    //         return this.letter; 
-    //     } else {
-    //         this.showLetter = false;
-    //         return "_";
-    //     }
-    // }
-
 }
+//Trying to create a prototype that has a method function to display when the user has guessed the word correctly.
 
+//get first letter object of array and return true if letter has been guessed correctly. 
+
+// Word.prototype.isCorrect = function() {
+
+//     var letterIsRight = 0;
+
+//     for(var i=0; i<this.letters.length; i++) {
+//         if(this.letters[i].showLetter === true) {
+//            letterIsRight += 1;
+//         }
+//     };
+
+//         if(letterIsRight === this.letters.length){
+//             this.correct = true;
+//         } else {
+//             this.correct = false;
+//         };
+
+//         return this.correct;
+
+// };
+
+
+
+//*TESTING CODE *//
 
 // var x = new Letter("S");
 // console.log(x.displayLetter());
@@ -68,7 +82,6 @@ Word.prototype.testLetter = function(charGuessed) {
 var testWord = new Word("Testing");
 //new word testing returns to an object. type of is an object. 
 // testWord.createString();
-
 
 testWord.testLetter("s");
 testWord.testLetter("T");

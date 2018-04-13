@@ -53,36 +53,30 @@ function promptUser() {
             // console.log("not correct");
         }
 
+
+        //Tried to create an if statement to say that if the user has guessed all of the letters in the letter object correctly, then to console out: You have guessed right.
+        // if (currentWord.isCorrect(answers.promptGuess)=== stringWord) {
+        //     console.log("You guessed correct!");
+        //     promptUser();
+        // }
+
+
        
 
 
     });
 
 }
-// var word = 'monkey';
-// word.includes('e'); // return true if word has 'e' else return false
-// function noMoreGuesses() {
-//     if (guessesRemaining === 0) {
-//         console.log("Try again")
-//         guessesRemaining = 4;
-//     } else if (guessesRemaining !== 0) {
-//         console.log("Yay you guessed right!");
-//     }
-// }
-
-
-
-
-// currentWord.testLetter("A");
-// currentWord.testLetter("i");
-// currentWord.testLetter("b");
-
 
 
 promptUser();
 
+//* TESTING CODE */
+// currentWord.testLetter("A");
+// currentWord.testLetter("i");
+// currentWord.testLetter("b");
+
 // console.log(currentWord.createString());
 //testLetter only tests each single character and sees if it matches
 //Create string actually returns the string of the word to us
-
 
